@@ -1,5 +1,5 @@
-#!/bin/bash
+#!/bin/sh
 
 echo "Hello $USER"
-echo "$(uptime)" >>"$(date)".txt
+uptime >> "$(date)".txt
 echo "Your File is being saved to $(pwd)"

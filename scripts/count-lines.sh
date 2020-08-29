@@ -1,9 +1,3 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
-for F in *
-do
-	if [[ -f $F ]]
-	then
-		echo $F: $(cat $F | wc -l)
-	fi
-done
+wc -l ./*

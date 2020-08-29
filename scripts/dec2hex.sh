@@ -1,3 +1,2 @@
-#!/bin/bash
-
-printf "0x%x\n" $1
+#!/bin/sh
+printf "0x%x\n" "$1"

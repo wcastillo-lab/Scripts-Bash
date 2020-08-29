@@ -1,3 +1,3 @@
-#!/bin/bash
+#!/bin/sh
 
-shuf -i $1-$2 -n 1
+shuf -i "$1-$2" -n 1
