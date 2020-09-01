@@ -1,5 +1,5 @@
 #!/bin/bash
 
-printf " Enter your directory: "
+echo -n "Enter your directory: "
 read -r x
 du -sh "$x"

@@ -1,5 +1,5 @@
-#!/bin/sh
-printf "Enter The Number: "
+#!/usr/bin/env bash
+echo -n "Enter The Number: "
 read -r a
 fact=1
 while [ "$a" -ne 0 ]; do

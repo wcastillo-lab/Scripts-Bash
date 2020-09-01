@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 echo "Hello $USER"
 uptime >> "$(date)".txt

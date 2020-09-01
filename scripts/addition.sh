@@ -1,8 +1,7 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
-printf 'Enter the First Number: '
+echo -n 'Enter the First Number: '
 read -r a
-printf 'Enter the Second Number: '
+echo -n 'Enter the Second Number: '
 read -r b
-x=$((a+b))
-printf '%s\n' "$a + $b = $x"
+echo "$a + $b = $((a+b))"

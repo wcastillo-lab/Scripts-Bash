@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-printf "Enter File Name: "
+echo -n "Enter File Name: "
 read -r file
 
 if [ ! -f "$file" ]; then
@@ -8,4 +8,4 @@ if [ ! -f "$file" ]; then
 	exit 1
 fi
 
-tr '[:upper:]' '[:lower:]' <"$file" >>small.txt
+tr '[:upper:]' '[:lower:]' < "$file" >> small.txt

@@ -1,4 +1,4 @@
-#!/bin/sh
-printf "Enter String Uppercase: "
+#!/usr/bin/env bash
+echo -n "Enter String Uppercase: "
 read -r i
 echo "$i" | tr '[:upper:]' '[:lower:]'

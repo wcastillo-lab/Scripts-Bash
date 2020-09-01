@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 echo "Welcome, I am ready to encrypt a file/folder for you"
 echo "currently I have a limitation, Place me to the same folder, where a file to be encrypted is present"

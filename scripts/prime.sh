@@ -1,5 +1,5 @@
-#!/bin/sh
-printf "Enter Any Number: "
+#!/usr/bin/env bash
+echo -n "Enter Any Number: "
 read -r n
 i=1; c=1
 while [ $i -le "$n" ]; do

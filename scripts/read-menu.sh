@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # read-menu: a menu driven system information program
 clear
 cat << EOF
@@ -10,7 +10,7 @@ Please Select:
     0. Quit
 
 EOF
-printf 'Enter selection [0-3]: '
+echo -n 'Enter selection [0-3]: '
 read -r sel
 
 case $sel in
